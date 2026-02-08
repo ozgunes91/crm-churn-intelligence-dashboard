@@ -1,9 +1,5 @@
 # MEASURES_CORE (DAX Export)
 
-> Generated from the current PBIX model via Tabular Editor.
-> Output location: Desktop
-
-
 ## 00 Base
 
 ### Latest Date (All)
@@ -1144,4 +1140,5 @@ CALCULATE(
 
 SELECTEDVALUE( DimProduct[Description] )
 ```
+
 
