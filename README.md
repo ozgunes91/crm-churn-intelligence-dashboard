@@ -97,7 +97,7 @@ The pipeline produces customer-level fields used throughout the report:
 
 ## Reproducibility (Optional)
 
-## Dataset (Online Retail II)
+### Dataset (Online Retail II)
 
 This repository does not include the raw dataset due to size.
 
