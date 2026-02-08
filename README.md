@@ -73,6 +73,7 @@ The pipeline produces customer-level fields used throughout the report:
 - capacity-based action targeting (e.g., Top15 via `action_flag_top15`) and action recommendation fields for the playbook (e.g., `priority`, `action`, `offer_type`, `message_angle`, `budget_suggestion`)
 
 ### Model summary (from `reports/churn_model_report.txt`)
+- Model details: [churn_model_report.txt](reports/churn_model_report.txt)
 - **Time-based cutoff (test starts):** 2011-06-30  
 - **Selected model:** LightGBM  
 - **ROC-AUC:** 0.8140  
