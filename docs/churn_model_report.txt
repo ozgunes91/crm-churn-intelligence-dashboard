@@ -1,9 +1,0 @@
-Cutoff date (test starts): 2011-06-30
-Train rows (labeled): 60,153 | Test rows (labeled): 15,424
-Churn rate train: 0.5701 | test: 0.6185
-LogReg ROC-AUC: 0.8000 | PR-AUC: 0.8473
-LightGBM ROC-AUC: 0.8140 | PR-AUC: 0.8582
-Selected model: LightGBM
-Features (13): ['tenure_days', 'total_orders', 'total_revenue', 'avg_basket_value', 'avg_items_per_order', 'avg_unique_skus', 'avg_days_between_orders', 'median_days_between_orders', 'recency_days', 'revenue_last_30d', 'orders_last_30d', 'revenue_last_90d', 'orders_last_90d']
-Total rows scored (incl. unlabeled): 98,386
-Rows labeled for training/eval: 75,577 | Unlabeled (unobservable): 22,809
