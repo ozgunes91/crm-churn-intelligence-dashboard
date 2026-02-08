@@ -95,7 +95,6 @@ Pipeline; raporda kullanılan müşteri seviyesinde şu alanları üretir:
 ---
 
 ## Çalıştırılabilirlik (Opsiyonel)
-Repo’nun uçtan uca çalıştırılabilir olmasını istersen `requirements.txt` ekleyip:
 
 ## Dataset (Online Retail II)
 
@@ -108,12 +107,9 @@ Bu repo ham veriyi boyut nedeniyle içermez.
 > Not: Veri dosya adı/kapsamı kaynağa göre değişebilir. Scriptlerdeki `DATA_PATH` / argümanları indirilen dosya adına göre güncelleyin.
 
 ```bash
+pip install -r requirements.txt
 python src/run_pipeline.py
 ```
-
-Sonra PBIX’i aç:
-- `pbix/ChurnIntelligenceFinal.pbix`
-
 ---
 
 ## Notlar
@@ -123,4 +119,4 @@ Sonra PBIX’i aç:
 ---
 
 ## İletişim
-- E-posta: `<ozgekayagunes@gmail.com>`
+- E-posta: `ozgekayagunes@gmail.com`
