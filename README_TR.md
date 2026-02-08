@@ -9,8 +9,7 @@ Bu proje **Online Retail II** veri seti üzerinde, **Veri Bilimi + BI** mantığ
 ---
 
 ## 📌 Demo & Linkler
-- **Interactive demo (Power BI Service / Publish to web):** `<DEMO_LINK>`
-- **GitHub repo:** `<GITHUB_LINK>`
+- **Interactive demo (Publish to web):** [Open the report](https://app.powerbi.com/view?r=eyJrIjoiYzc5NGUwZGEtMmM1ZS00NWIyLWJkZjEtMjc0ZDE0ZWI0YjM2IiwidCI6IjNiYjA1MzYzLTljMWYtNDM4My1iMzdkLWY2OWIxMWRkMzk5ZSIsImMiOjl9)
 
 > Demo interaktiftir (sayfalar + slicer’lar). Refresh kapalı olsa bile rapor “static snapshot” demo olarak çalışır.
 
@@ -94,41 +93,6 @@ Pipeline; raporda kullanılan müşteri seviyesinde şu alanları üretir:
 
 ---
 
-## Repo klasör yapısı (Öneri)
-```text
-.
-├─ pbix/
-│  └─ ChurnIntelligenceFinal.pbix
-├─ src/
-│  ├─ make_dataset.py
-│  ├─ feature_engineering.py
-│  ├─ churn_label.py
-│  ├─ churn_model.py
-│  ├─ segment_snapshot.py
-│  ├─ campaign_actions.py
-│  └─ run_pipeline.py
-├─ data/                       # opsiyonel (portföyde derived output tercih edilir)
-│  ├─ transactions_clean.csv
-│  ├─ churn_scores.csv
-│  ├─ customer_segment_snapshot.csv
-│  └─ campaign_actions.csv
-├─ reports/
-│  ├─ churn_model_report.txt
-│  ├─ REPORT.md
-│  └─ REPORT_EN.md
-└─ assets/
-   ├─ 00-Start Here.png
-   ├─ 01-Executive Overview.png
-   ├─ 02-Sales Performance.png
-   ├─ 03-Customer Base & Segmentation.png
-   ├─ 04-Churn & Risk.png
-   ├─ 05-Action Playbook.png
-   ├─ 06-Cohort & Retention.png
-   └─ 07-Customer 360.png
-```
-
----
-
 ## Çalıştırılabilirlik (Opsiyonel)
 Repo’nun uçtan uca çalıştırılabilir olmasını istersen `requirements.txt` ekleyip:
 
@@ -148,5 +112,4 @@ Sonra PBIX’i aç:
 ---
 
 ## İletişim
-- LinkedIn: `<LINKEDIN>`
-- E-posta: `<EMAIL>`
+- E-posta: `<ozgekayagunes@gmail.com>`
