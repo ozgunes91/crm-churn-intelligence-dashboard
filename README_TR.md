@@ -11,8 +11,7 @@ Bu proje **Online Retail II** veri seti üzerinde, **Veri Bilimi + BI** mantığ
 ## 📌 Demo & Linkler
 - **Interactive demo (Publish to web):** [Open the report](https://app.powerbi.com/view?r=eyJrIjoiYzc5NGUwZGEtMmM1ZS00NWIyLWJkZjEtMjc0ZDE0ZWI0YjM2IiwidCI6IjNiYjA1MzYzLTljMWYtNDM4My1iMzdkLWY2OWIxMWRkMzk5ZSIsImMiOjl9)
 
-> Demo interaktiftir (sayfalar + slicer’lar). Refresh kapalı olsa bile rapor “static snapshot” demo olarak çalışır.
-
+> Demo interaktiftir (sayfalar + slicer’lar). Refresh kapalı olsa bile rapor, son yayımlanan snapshot üzerinden demo olarak çalışır.”
 ---
 
 ## Görseller (Rapor Sayfaları)
@@ -96,7 +95,7 @@ Pipeline; raporda kullanılan müşteri seviyesinde şu alanları üretir:
 
 ## Çalıştırılabilirlik (Opsiyonel)
 
-## Dataset (Online Retail II)
+### Dataset (Online Retail II)
 
 Bu repo ham veriyi boyut nedeniyle içermez.
 
