@@ -9,8 +9,8 @@ This project is built on the **Online Retail II** dataset and is intentionally d
 ---
 
 ## 📌 Live Demo & Assets
-- **Interactive demo (Power BI Service / Publish to web):** `<DEMO_LINK>`
-- **Repository:** `<GITHUB_LINK>`
+
+- **Interactive demo (Publish to web):** [Open the report](https://app.powerbi.com/view?r=eyJrIjoiYzc5NGUwZGEtMmM1ZS00NWIyLWJkZjEtMjc0ZDE0ZWI0YjM2IiwidCI6IjNiYjA1MzYzLTljMWYtNDM4My1iMzdkLWY2OWIxMWRkMzk5ZSIsImMiOjl9)
 
 > The demo is fully interactive (pages + slicers). If refresh is disabled in the service, the report still works as a static snapshot demo.
 
@@ -94,51 +94,12 @@ The pipeline produces customer-level fields used throughout the report:
 
 ---
 
-## Repository Structure (Recommended)
-```text
-.
-├─ pbix/
-│  └─ ChurnIntelligenceFinal.pbix
-├─ src/
-│  ├─ make_dataset.py
-│  ├─ feature_engineering.py
-│  ├─ churn_label.py
-│  ├─ churn_model.py
-│  ├─ segment_snapshot.py
-│  ├─ campaign_actions.py
-│  └─ run_pipeline.py
-├─ data/                       # optional (prefer derived outputs for portfolio repos)
-│  ├─ transactions_clean.csv
-│  ├─ churn_scores.csv
-│  ├─ customer_segment_snapshot.csv
-│  └─ campaign_actions.csv
-├─ reports/
-│  ├─ churn_model_report.txt
-│  ├─ REPORT.md
-│  └─ REPORT_EN.md
-└─ assets/
-   ├─ 00-Start Here.png
-   ├─ 01-Executive Overview.png
-   ├─ 02-Sales Performance.png
-   ├─ 03-Customer Base & Segmentation.png
-   ├─ 04-Churn & Risk.png
-   ├─ 05-Action Playbook.png
-   ├─ 06-Cohort & Retention.png
-   └─ 07-Customer 360.png
-```
-
----
-
 ## Reproducibility (Optional)
 If you want this repository to be executable end-to-end, add `requirements.txt` and run:
 
 ```bash
 python src/run_pipeline.py
 ```
-
-Then open the PBIX:
-- `pbix/ChurnIntelligenceFinal.pbix`
-
 ---
 
 ## Notes
@@ -148,5 +109,4 @@ Then open the PBIX:
 ---
 
 ## Contact
-- LinkedIn: `<YOUR_LINKEDIN>`
-- Email: `<YOUR_EMAIL>`
+- Email: `ozgekayagunes@gmail.com`
