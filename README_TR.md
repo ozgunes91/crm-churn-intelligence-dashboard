@@ -96,6 +96,16 @@ Pipeline; raporda kullanılan müşteri seviyesinde şu alanları üretir:
 ## Çalıştırılabilirlik (Opsiyonel)
 Repo’nun uçtan uca çalıştırılabilir olmasını istersen `requirements.txt` ekleyip:
 
+## Dataset (Online Retail II)
+
+Bu repo ham veriyi boyut nedeniyle içermez.
+
+1) Online Retail II veri setini **Kaggle** veya resmi kaynaktan indirin.  
+2) Dosyayı şu klasöre koyun: `data/raw/`  
+3) Ardından `src/` altındaki scriptleri çalıştırın.
+
+> Not: Veri dosya adı/kapsamı kaynağa göre değişebilir. Scriptlerdeki `DATA_PATH` / argümanları indirilen dosya adına göre güncelleyin.
+
 ```bash
 python src/run_pipeline.py
 ```
