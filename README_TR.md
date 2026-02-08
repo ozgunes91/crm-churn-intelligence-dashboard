@@ -72,6 +72,7 @@ Pipeline; raporda kullanılan müşteri seviyesinde şu alanları üretir:
 - kapasite bazlı hedefleme (örn. `action_flag_top15`) ve playbook için aksiyon öneri alanları (`priority`, `action`, `offer_type`, `message_angle`, `budget_suggestion`)
 
 ### Model özeti (`reports/churn_model_report.txt`)
+- Detay rapor: [churn_model_report.txt](reports/churn_model_report.txt)
 - **Time-based cutoff (test başlangıcı):** 2011-06-30  
 - **Seçilen model:** LightGBM  
 - **ROC-AUC:** 0.8140  
