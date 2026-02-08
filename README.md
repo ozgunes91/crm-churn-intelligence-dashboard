@@ -96,7 +96,6 @@ The pipeline produces customer-level fields used throughout the report:
 ---
 
 ## Reproducibility (Optional)
-If you want this repository to be executable end-to-end, add `requirements.txt` and run:
 
 ## Dataset (Online Retail II)
 
@@ -109,6 +108,7 @@ This repository does not include the raw dataset due to size.
 > Note: File names/columns may vary by source. Update script arguments / `DATA_PATH` accordingly.
 
 ```bash
+pip install -r requirements.txt
 python src/run_pipeline.py
 ```
 ---
