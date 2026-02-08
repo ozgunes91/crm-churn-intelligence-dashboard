@@ -97,6 +97,16 @@ The pipeline produces customer-level fields used throughout the report:
 ## Reproducibility (Optional)
 If you want this repository to be executable end-to-end, add `requirements.txt` and run:
 
+## Dataset (Online Retail II)
+
+This repository does not include the raw dataset due to size.
+
+1) Download **Online Retail II** from **Kaggle** (or the original source).  
+2) Place the file under: `data/raw/`  
+3) Run the scripts in `src/` to reproduce the outputs.
+
+> Note: File names/columns may vary by source. Update script arguments / `DATA_PATH` accordingly.
+
 ```bash
 python src/run_pipeline.py
 ```
