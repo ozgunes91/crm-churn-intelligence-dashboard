@@ -17,7 +17,7 @@ This project is built on the **Online Retail II** dataset and is intentionally d
 ---
 
 ## Screenshots (Report Pages)
-> Place the exported images under `assets/` and keep the same filenames.
+
 
 | Page | Preview |
 |---|---|
@@ -39,7 +39,7 @@ This report explicitly separates **two time contexts** to avoid mixing definitio
 - **Sales Period (InvoiceDate)** → realized sales KPIs (Revenue, Orders, AOV, trends)
 - **Snapshot (As-Of Date)** → churn risk / segmentation / expected loss / actions at a decision point
 
-This is the backbone of the dashboard. Sales metrics never accidentally inherit snapshot logic (and vice versa).
+
 
 ---
 
