@@ -15,7 +15,7 @@ Bu proje **Online Retail II** veri seti üzerinde, **Veri Bilimi + BI** mantığ
 ---
 
 ## Görseller (Rapor Sayfaları)
-> Export ettiğin görselleri `assets/` klasörüne koy ve aşağıdaki dosya adlarını koru.
+
 
 | Sayfa | Önizleme |
 |---|---|
@@ -37,7 +37,7 @@ Rapor, KPI’ların karışmaması için iki ayrı zaman bağlamını **bilerek*
 - **Sales Period (InvoiceDate)** → gerçekleşen satış KPI’ları (Revenue, Orders, AOV, trendler)
 - **Snapshot (As-Of Date)** → risk/segment/expected loss/aksiyon karar noktası
 
-Bu tasarım sayesinde satış metrikleri snapshot mantığına “yanlışlıkla” bulaşmaz (ve tersi).
+
 
 ---
 
